@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower"
+    tools:context=".UI.Start">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="300sp"
+        android:layout_marginTop="300sp"
+        android:weightSum="100">
+        <Button
+            android:id="@+id/btnStart"
+            style="@style/Button1"
+            android:text="Start">
+        </Button>
+        <Button
+            android:id="@+id/btnExit"
+            style="@style/Button1"
+            android:text="Exit">
+        </Button>
+</LinearLayout>
+
+</FrameLayout>
